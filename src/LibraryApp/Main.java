@@ -1,4 +1,4 @@
-package 2LibraryApp;
+package LibraryApp;
 
 import com.library.model.*;
 import com.library.service.*;
@@ -117,8 +117,6 @@ public class Main {
         // Kitabı qaytarırıq
         borrowsService.returnBook(borrowId);
         
-        // Əgər gecikmə varsa avtomatik cərimə yoxlayırıq (Service-dəki məntiqlə)
-        // Bunun üçün BorrowsService daxilində FineService-i çağırmaq daha yaxşıdır, 
-        // amma sadəlik üçün burada returnBook işini görmək kifayətdir.
+        
     }
 }
